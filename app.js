@@ -20,7 +20,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, "public")));
 
 app.use("/", () => {
-  res.send("Hello World");
+  res.send("Hello Worldqwdferet");
 });
 app.use("/users", usersRouter);
 
